@@ -1,0 +1,29 @@
+# Boku
+
+> Boku is a global mobile payments network that connects digital merchants to more than 200 local payment methods — mobile wallets, real-time account-to-account bank transfers, and direct carrier billing — across 70+ countries, reaching over 7 billion payment accounts. Its Boku Direct payment gateway API powers local payments, subscriptions, and settlement for merchants including Epic Games, Google, Meta, Microsoft, Netflix, Sony, Spotify, and Tencent. Boku processes over $9 billion annually and is publicly traded on the London Stock Exchange (LON:BOKU).
+
+## APIs
+
+- [Boku Direct - Payment Gateway API](https://developer.boku.com): Accept local payment methods (mobile wallets, account-to-account transfers, direct carrier billing) with one-off charges, subscriptions, refunds, and global settlement. Reference published as a hosted developer portal; no public OpenAPI download at time of enrichment.
+
+## Docs
+
+- [Developer Portal](https://developer.boku.com): Boku Direct payment gateway developer documentation.
+- [API Reference](https://developer.boku.com/json/index.html): Hosted "Boku Direct - Payment Gateway API" reference.
+- [Blog](https://www.boku.com/blog): Boku company and product blog.
+- [Support / Contact](https://www.boku.com/contact-us): Merchant and integration support.
+
+## Security
+
+- [Bug Bounty Program](https://www.boku.com/boku-bug-bounty-program): Self-hosted responsible-disclosure and bug bounty program.
+- [Bug Bounty Terms](https://www.boku.com/boku-bug-bounty-terms-and-conditions/): Program terms and conditions.
+
+## Legal
+
+- [Terms of Service](https://www.boku.com/terms)
+- [Privacy Notice](https://www.boku.com/payments-privacy-notice)
+
+## About
+
+- [Website](https://www.boku.com)
+- [Investor Relations](https://investors.boku.com)

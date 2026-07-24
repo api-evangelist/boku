@@ -1,7 +1,26 @@
 aid: boku
 name: Boku
-description: Boku is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Boku is a global mobile payments network that connects digital merchants to
+  more than 200 local payment methods — mobile wallets, real-time account-to-account
+  bank transfers, and direct carrier billing — across 70+ countries, reaching over
+  7 billion payment accounts. Through its Boku Direct payment gateway API, merchants
+  such as Epic Games, Google, Meta, Microsoft, Netflix, Sony, Spotify, and Tencent
+  accept local payments, run subscriptions, and settle globally. Boku processes over
+  $9 billion in payments annually and is publicly traded on the London Stock Exchange
+  (LON:BOKU).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://developer.boku.com/json/static/images/boku-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/boku/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,67 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Payments
+- Mobile Payments
+- Carrier Billing
+- Digital Wallets
+- Local Payment Methods
+- Subscriptions
+- Fintech
+apis:
+- name: Boku Direct - Payment Gateway API
+  description: >-
+    Boku Direct is Boku's payment gateway API for accepting local payment methods —
+    mobile wallets, account-to-account transfers, and direct carrier billing — with
+    support for one-off charges, subscriptions, refunds, and settlement across 70+
+    countries. The reference is published as a hosted developer portal at
+    developer.boku.com; the machine-readable specification is not exposed as a public
+    OpenAPI download at the time of enrichment.
+  humanURL: https://developer.boku.com
+  tags:
+  - Payments
+  - Mobile Payments
+  - Carrier Billing
+  properties:
+  - type: Documentation
+    url: https://developer.boku.com
+  - type: APIReference
+    url: https://developer.boku.com/json/index.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/boku-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/boku-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.boku.com/boku-bug-bounty-program
+- type: Website
+  url: https://www.boku.com
+- type: DeveloperPortal
+  url: https://developer.boku.com
+- type: Documentation
+  url: https://developer.boku.com
+- type: APIReference
+  url: https://developer.boku.com/json/index.html
+- type: Blog
+  url: https://www.boku.com/blog
+- type: Support
+  url: https://www.boku.com/contact-us
+- type: TermsOfService
+  url: https://www.boku.com/terms
+- type: PrivacyPolicy
+  url: https://www.boku.com/payments-privacy-notice
+- type: LLMsTxt
+  url: llms/boku-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
