@@ -9,6 +9,17 @@ description: >-
   accept local payments, run subscriptions, and settle globally. Boku processes over
   $9 billion in payments annually and is publicly traded on the London Stock Exchange
   (LON:BOKU).
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
